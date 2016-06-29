@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="windows-1253"?>
+<rdf:RDF
+    xmlns:nsA="http://my_work/Computer#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://my_work/Computer#myComputer">
+    <nsA:hasSoftware>
+      <rdf:Description rdf:about="http://my_work/Computer#software">
+        <nsA:hasSoftware>
+          <rdf:Description rdf:about="http://my_work/Computer#application">
+            <nsA:hasSoftware>asd</nsA:hasSoftware>
+          </rdf:Description>
+        </nsA:hasSoftware>
+        <nsA:hasSoftware>
+          <rdf:Description rdf:about="http://my_work/Computer#OS">
+            <nsA:hasSoftware>win</nsA:hasSoftware>
+          </rdf:Description>
+        </nsA:hasSoftware>
+        <nsA:hasSoftware>
+          <rdf:Description rdf:about="http://my_work/Computer#BIOS">
+            <nsA:hasSoftware>asd</nsA:hasSoftware>
+          </rdf:Description>
+        </nsA:hasSoftware>
+      </rdf:Description>
+    </nsA:hasSoftware>
+    <nsA:hasHardware>
+      <rdf:Description rdf:about="http://my_work/Computer#hardware">
+        <nsA:hasHardware>
+          <rdf:Description rdf:about="http://my_work/Computer#output">
+            <nsA:hasHardware>
+              <rdf:Description rdf:about="http://my_work/Computer#speaker">
+                <nsA:hasHardware>speaker</nsA:hasHardware>
+                <nsA:hasHardware>woofer</nsA:hasHardware>
+              </rdf:Description>
+            </nsA:hasHardware>
+            <nsA:hasHardware>
+              <rdf:Description rdf:about="http://my_work/Computer#printer">
+                <nsA:hasHardware>asd</nsA:hasHardware>
+              </rdf:Description>
+            </nsA:hasHardware>
+            <nsA:hasHardware>
+              <rdf:Description rdf:about="http://my_work/Computer#screen">
+                <nsA:hasHardware>asd</nsA:hasHardware>
+              </rdf:Description>
+            </nsA:hasHardware>
+          </rdf:Description>
+        </nsA:hasHardware>
+        <nsA:hasHardware>
+          <rdf:Description rdf:about="http://my_work/Computer#process_unit">
+            <nsA:hasHardware>
+              <rdf:Description rdf:about="http://my_work/Computer#RAM">
+                <nsA:hasHardware>asd</nsA:hasHardware>
+              </rdf:Description>
+            </nsA:hasHardware>
+            <nsA:hasHardware>
+              <rdf:Description rdf:about="http://my_work/Computer#cache">
+                <nsA:hasHardware>qasd</nsA:hasHardware>
+              </rdf:Description>
+            </nsA:hasHardware>
+            <nsA:hasHardware>
+              <rdf:Description rdf:about="http://my_work/Computer#CPU">
+                <nsA:hasHardware>asd5</nsA:hasHardware>
+              </rdf:Description>
+            </nsA:hasHardware>
+            <nsA:hasHardware>
+              <rdf:Description rdf:about="http://my_work/Computer#HDD">
+                <nsA:hasHardware>asdok</nsA:hasHardware>
+              </rdf:Description>
+            </nsA:hasHardware>
+          </rdf:Description>
+        </nsA:hasHardware>
+        <nsA:hasHardware>
+          <rdf:Description rdf:about="http://my_work/Computer#input">
+            <nsA:hasHardware>
+              <rdf:Description rdf:about="http://my_work/Computer#keyboard">
+                <nsA:hasHardware>pol[po</nsA:hasHardware>
+              </rdf:Description>
+            </nsA:hasHardware>
+            <nsA:hasHardware>
+              <rdf:Description rdf:about="http://my_work/Computer#mouse">
+                <nsA:hasHardware>asd</nsA:hasHardware>
+              </rdf:Description>
+            </nsA:hasHardware>
+          </rdf:Description>
+        </nsA:hasHardware>
+      </rdf:Description>
+    </nsA:hasHardware>
+  </rdf:Description>
+</rdf:RDF>
